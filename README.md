@@ -1,24 +1,32 @@
-# README
+# RESTfulAPI-Server-Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A stateless, REST-API for the third-party integration and consumption, such as Online Shops like Shopify. 
 
-Things you may want to cover:
+Built with TDD and optimization implemented for better performances and the response time.
 
-* Ruby version
+  - heroku
 
-* System dependencies
+## Structure
 
-* Configuration
+User is able to place many orders, upload multiple products which can have many images or comments from another users on the app.
+Using `pow` to create a subdomain for local development tests
 
-* Database creation
+## Requirements
 
-* Database initialization
+  - `Ruby 2.3.0 or higher`
+  - `Rails 4.0.1`
+  - `PostgreSQL 9.6.1`
+  - `RSpec-rails 3.5.2`
+  - `active_model_serializers`
 
-* How to run the test suite
+## Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the following command to install the gems:
 
-* Deployment instructions
+```
+bundle install
+```
 
-* ...
+```
+rails s
+```

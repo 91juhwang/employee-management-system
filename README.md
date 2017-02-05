@@ -1,23 +1,19 @@
-# RESTfulAPI-Server-Rails
+# Employee Management System
 
-A stateless, REST-API for the third-party integration and consumption, such as Online Shops like Shopify. 
+A Rails application integating with React.js
 
-Built with TDD and optimization implemented for better performances and the response time.
 
   - heroku
 
 ## Structure
 
-User is able to place many orders, upload multiple products which can have many images or comments from another users on the app.
-Using `pow` to create a subdomain for local development tests
+User is able to view all employees, and perform CRUD actions on them.
+Promote/Demote even fire an employee!!
 
 ## Requirements
 
   - `Ruby 2.3.0 or higher`
-  - `Rails 4.0.1`
-  - `PostgreSQL 9.6.1`
-  - `RSpec-rails 3.5.2`
-  - `active_model_serializers`
+  - `Rails 5.0`
 
 ## Installation
 
